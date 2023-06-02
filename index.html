@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Match</title>
+    <link rel="shortcut icon" href="Resources/IMG/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="script/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="script/script.js"></script>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="t1">Photo Match Generator</div>
+    </div>
+    <div class="mobile">
+        <h3 id="note
+        ">Please Open this on Laptop or Computer</h3>
+    </div>
+    <section id="main-section">
+        <div class="box-1">
+            <div class="img-box-1">
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgTPK__8LLHIGIex6id1AoAjn0n8oBRwNRaWQEIb5Tw&s" alt="" id="person-img" id="output"> -->
+                <img id="output" width="100%" > 
+            </div>
+            <div class="upload">
+                <span class="bar"><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" ></span>
+            </div>
+        </div>
+        <div class="box-2">
+            <i class='bx bxs-heart bx-tada' ></i>
+        </div>
+        <div class="box-3">
+            <div class="auto-img">
+                <img src="" alt="" id="match-img" style="display: none;">
+            </div>
+            <div class="tsxt">
+                Matched Photo
+            </div>
+        </div>
+        <div class="button">
+            <button id="button" onclick="changeit()">Generate</button>
+            <a href="index.html" id="btn">Reset</a>
+        </div>
+        
+    </section>
+  <div class="copyright">
+    <p id="tag">
+        © copyright All right reserved | Made with  <i class='bx bxs-heart'></i> by &nbsp;<a href="https://arbabhassan.bio.link/">Arbab Hassan</a>
+
+    </p>
+    <p id="mobile-view">
+        © copyright All right reserved  <br> Made with  <i class='bx bxs-heart'></i> by &nbsp;<a href="https://arbabhassan.bio.link/">Arbab Hassan</a>
+
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+body{
+    background-color: #3C486B;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header{
+    padding-top: 10px;
+    background-color: #F0F0F0;
+}
+.t1{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top:10px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+@media only screen and (max-width:500px) {
+    .t1{
+        font-size: 20px;
+
+    }
+}
+#main-section{
+    width: 100%;
+    height: 78vh;
+    background-color: teal;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-box-1{
+    width: 300px;
+    height: 300px;
+    background-color:#eeeeee2f;
+}
+.img-box-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.upload{
+    background-color: #F45050;
+    width: 300px;
+    padding-left: 80px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tsxt{
+    justify-content: center;   width: 300px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #F45050;
+    font-weight: 500;
+    color: #eee;
+
+
+
+}
+#file{
+    cursor: pointer;
+}
+#output{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 i{
+    font-size: 130px;
+    color: red;
+}
+.auto-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: #eeeeee33;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+#button{
+    padding: 4px 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn{
+    margin-left: 20px;
+    padding: 4px 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #eee;
+    text-decoration: none;
+}
+#match-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#btn:hover{
+    background-color: #F45050;
+    color: #F9D949;
+}
+
+@media only screen and (max-width:780px) {
+    #main-section{
+        flex-wrap: wrap;
+        height: 1300px;
+    }
+    #output{
+        width: 200px;
+        height: 200px;
+        outline: none;
+        border: none;
+    }
+    .img-box-1{
+        width: 200px;
+        height: 200px;
+    }
+    .upload{
+        width: 200px;
+    }
+    body{
+        overflow-y: scroll;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .auto-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .tsxt{
+        width: 200px;
+    }
+    .button{
+        margin-bottom: 20px;
+    }
+    #button{
+        padding: 0px 30px;
+        width: auto;
+        font-size: 18px;
+        background-color: red;
+        border-radius: 50px;
+
+    }
+    #btn{
+        font-size: 15px;
+        margin: 20px;
+
+    }
+}
+#button:hover{
+background-color: #F45050;
+color: #F9D949;
+}
+.copyright{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70px;
+}
+.copyright p{
+    font-size: 18px;
+}
+.copyright p i{
+    color: red;
+    font-size: 20px;
+}
+.copyright p a{
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.copyright p a:hover{
+    color: #F45050;
+}
+.mobile{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+#mobile-view{
+    display: none;
+}
+
+@media only screen and (max-width:1050px) {
+    #main-section{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        
+    }
+    #tag{
+        display: none;
+    }
+    #mobile-view{
+        display: block;
+    }
+    .copyright p{
+        text-align: center;
+    }
+}
+#note{
+    font-size: 18px;
+    text-align: center;
+}
